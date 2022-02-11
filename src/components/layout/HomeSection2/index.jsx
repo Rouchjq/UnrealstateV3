@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './index.module.css';
 
-export const HomeSection2 = () => {
+export const Homesection2 = () => {
   return (
     <div className={style.contenedor_principal}>
         <div className={style.lineUp}></div>

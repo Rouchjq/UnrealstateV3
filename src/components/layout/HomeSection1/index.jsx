@@ -1,11 +1,13 @@
 import React from 'react';
 import style from './index.module.css';
+import { Header } from '../../common/Header';
 import img1 from '../../../assets/images/homesection1/img1.png';
 import img2 from '../../../assets/images/homesection1/img2.jpg';
 
-export const HomeSection1 = () => {
+export const Homesection1 = () => {
   return (
     <div className={style.contenedor_principal}>
+        <Header />
 
         <div className={style.titulos}>
             <h1>Las transacciones inombiliarias</h1>

@@ -2,9 +2,25 @@
     margin-top: 50px;
 }
 .lineUp{
-    height: 10px;
+    height: 8px;
     width: 100px;
     margin: auto;
     background-color: var(--color-secundario);
     border-radius: 50px;
+}
+
+.contenedor_principal h1{
+    text-align: center;
+    color: var(--color-titulos);
+    font-size: 1.92rem;
+    font-weight: 800;
+}
+
+.contenedor_principal p{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 7%;
+    width: 90%;
+    color: var(--color-texto);
+    font-size: 1.09rem
 }

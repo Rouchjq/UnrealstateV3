@@ -1,14 +1,16 @@
 import React from 'react';
-import { Header } from '../../components/common/Header';
-import { HomeSection1 } from '../../components/layout/HomeSection1';
-import { HomeSection2 } from '../../components/layout/HomeSection2';
+import { Homesection1 } from '../../components/layout/Homesection1';
+import { Homesection2 } from '../../components/layout/Homesection2';
+import { Homesection3 } from '../../components/layout/Homesection3';
+
 
 export const Homepage = () => {
   return (   
       <>
-      <Header />
-      <HomeSection1 />
-      <HomeSection2 />
+      <Homesection1 />
+      <Homesection2 />
+      <Homesection3 />
+
       </>
   )
 }

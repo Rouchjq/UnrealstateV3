@@ -1,10 +1,45 @@
 .contenedor_principal{
     margin-top: 50px;
+    margin-left: 10%;
 }
 .lineUp{
     height: 8px;
     width: 100px;
     background-color: var(--color-secundario);
     border-radius: 50px;
-    margin-left: 10%;
+   
+}
+
+.titulos h1{
+    color: var(--color-titulos);
+    font-size: 2.1rem;
+    font-weight: bolder;
+}
+
+.contenido_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_text{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.img_text img{
+    margin-right: 40px;
+    width: 80px;
+    height: 65px; 
+    object-fit: contain;
+}
+
+.img_text p{
+    margin-right: 100px;
+    color: var(--color-texto);
+}
+
+.img_text p span{
+    color: var(--color-secundario);
+    font-size: 1.1rem;
 }

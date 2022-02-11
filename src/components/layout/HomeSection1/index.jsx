@@ -11,7 +11,7 @@ export const Homesection1 = () => {
 
         <div className={style.titulos}>
             <h1>Las transacciones inombiliarias</h1>
-            <h1>mas Rapidas,faciles y seguras que nunca</h1>
+            <h1>más rápidas,fáciles y seguras que nunca</h1>
         </div>
 
         <div className={style.text}>

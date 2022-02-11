@@ -1,0 +1,10 @@
+.contenedor_principal{
+    margin-top: 50px;
+}
+.lineUp{
+    height: 10px;
+    width: 100px;
+    margin: auto;
+    background-color: var(--color-secundario);
+    border-radius: 50px;
+}

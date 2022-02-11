@@ -1,11 +1,12 @@
 import React from 'react';
 import style from './index.module.css';
+import logo from '../../../assets/images/header/img1.png';
 
 export const Header = () => {
   return (
     <div className = {style.menu_principal}>
         <div id='logo' className={style.logo}>
-            <h1>logo</h1>
+            <img src={logo} alt="logo"  />
         </div> 
 
         <div className={style.botones}>

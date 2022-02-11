@@ -6,10 +6,11 @@
     align-items: center;
 }
 
-.logo h1{
+.logo img{
+    padding-top: 20px;
     margin-left: 15px;
     cursor: pointer;
-    color: var(--color-texto);
+
 }
 
 .botones .btn_grande{

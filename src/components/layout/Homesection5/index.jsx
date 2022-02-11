@@ -15,9 +15,9 @@ export const Homesection5 = () => {
     <div className={style.contenedor_principal}>
         
         <div className={style.lineUp}></div>
-        <div className={style. text_box}>
+        <div className={style.text_box}>
             <h1>Crea un tour virtual 360</h1>
-            <p>conecta tus inmuebles al mundo. Muestra tus propiedades a través de la plataforma Unrealstate y<br />aumentando tu ratio de conversión, reduce tiempo y costes, vende mas rápido, automatia procesos<br /> formando parte de la mayor red de venta de inmuebles</p>
+            <p>conecta tus inmuebles al mundo. Muestra tus propiedades a través de la plataforma Unrealstate y aumentando tu ratio de conversión, reduce tiempo y costes, vende mas rápido, automatiza procesos formando parte de la mayor red de venta de inmuebles</p>
         </div>
 
         <div className={style.number_box}>
@@ -28,7 +28,7 @@ export const Homesection5 = () => {
             </div>
 
             <div className={style.numberTwo}>
-                <h1>95%%</h1>
+                <h1>95%</h1>
                 <p>De los potenciales compradores muestra más interés en propiedades <br />que ofrecen recorridos 360°</p>
             </div>
 
@@ -36,32 +36,38 @@ export const Homesection5 = () => {
 
         <div className={style.video_box}>
             <div className={style.img_video}>
-                <h1>Imagen y boton</h1>
-                {/* <img src={img1} alt="imagen" />
-                <img src={btn1} alt="boton" className={style.btn_reproductor} /> */}
+                <img src={img1} alt="imagen" className={style.view}/>
+                <img src={btn1} alt="boton" className={style.btn_reproductor1} />
+                <img src={btn1} alt="boton" className={style.btn_reproductor2} />
+                <img src={btn1} alt="boton" className={style.btn_reproductor3} />
             </div>
 
             <div className={style.btn_funciones}>
-                <h1><span>Navega</span>por las <br />principales <br />funcionalidades</h1>
+
+               <div className={style.titulo}>
+                    <h1><span>Navega</span> por las</h1>
+                    <h1>principales</h1>
+                    <h1>funcionalidades</h1>
+               </div>
 
                 <div className={style.funciones}>
 
                     <div className={style.col1}>
-                        <div className={style.funcion1}>
-                            <h1>Tour Virtual</h1>
-                        </div>
-                        <div className={style.funcion3}>
-                            <h1>Imagenes</h1>
-                        </div>
+                        
+                            <img src={icon1} alt="Tour Virtual" />
+                       
+                        
+                            <img src={icon3} alt="Imgenes" />
+                
                     </div>
 
                     <div className={style.col2}>
-                        <div className={style.funcion2}>
-                            <h1>Video</h1>
-                        </div>
-                        <div className={style.funcion4}>
-                            <h1>Imagenes 360</h1>
-                        </div>
+                        
+                            <img src={icon2} alt="Video" />
+                        
+                        
+                            <img src={icon4} alt="Video 360" />
+                        
                     </div>
 
                 </div>

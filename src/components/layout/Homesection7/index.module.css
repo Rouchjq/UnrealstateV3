@@ -1,3 +1,91 @@
 .contenedor_principal {
   background-color: #97c7ae;
+  margin-top: -10px;
+  padding: 5% 10%;
+}
+
+.lineUp {
+  height: 8px;
+  width: 100px;
+  background-color: var(--color-elementos);
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.titulos h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.contenedor_roadmap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contenedor_roadmap_item {
+  margin: 0 0 30px 30px;
+}
+
+.roadmap_item_title h1 {
+  font-size: 2rem;
+  color: var(--color-elementos);
+  margin: 0;
+}
+
+.roadmap_item_content {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 300;
+}
+.roadmap_item_content ul {
+  padding: 0;
+  margin: 0;
+}
+
+.roadmap_item_content li {
+  list-style: none;
+}
+
+.roadmap_item_content li::before {
+  content: '- ';
+}
+
+.contenedor_botones {
+  display: flex;
+
+  margin-top: 30px;
+}
+
+.contenedor_botones button {
+  margin-top: 20px;
+  width: 30%;
+  padding: 15px 15px;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  outline: none;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: 'poppins';
+  margin: 0 10px;
+}
+
+.contenedor_botones button:first-child:hover {
+  background: transparent;
+  color: #fff;
+}
+
+.contenedor_botones button:first-child {
+  background: #fff;
+  color: #3dba75;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  box-shadow: 0px 0px 10px #fff;
 }

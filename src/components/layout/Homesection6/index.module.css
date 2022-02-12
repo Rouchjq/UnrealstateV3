@@ -82,7 +82,7 @@ h1 {
 
 .contenedor_contenido_text button {
   margin-top: 20px;
-  width: 30%;
+  width: fit-content;
   padding: 10px 40px;
   border-radius: 50px;
   background: #fff;

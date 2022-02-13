@@ -1,53 +1,53 @@
-.menu_principal{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.menu_principal {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo img{
-    padding-top: 20px;
-    margin-left: 15px;
-    cursor: pointer;
-
+.logo img {
+  padding-top: 20px;
+  margin-left: 15px;
+  cursor: pointer;
 }
 
-.botones .btn_grande{
-    margin-right: 23px;
-    padding: 14px 54px;
-    border-radius: 10px;
-    background: var(--color-secundario);
-    color: white;
-    outline: none;
-    border: 2px var(--color-secundario);
-    cursor: pointer;
-    transition: all 0.3s;
-    font-size: 0.9rem;
-    font-weight: 500;
+.botones .btn_grande {
+  margin-right: 23px;
+  padding: 14px 54px;
+  border-radius: 10px;
+  background: var(--color-secundario);
+  color: white;
+  outline: none;
+  border: 2px var(--color-secundario);
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: 'poppins';
 }
-.botones .btn_grande:hover{
-    filter: brightness(1.15);
-}
-
-.botones .btn_lng{
-     /*hacer btn redondo*/
-     width: 30px;
-     height: 30px;
-     border-radius: 50%;     
-     /*End btn redondo*/
-     border: none;
-     background: transparent;
-     color: var(--color-texto);
-     cursor: pointer;
-     font-size: 0.9rem;
-     font-weight: 650;
-     margin: 0px 3px;
-     padding: 0px 2px;
-     transition: all 0.3s;
+.botones .btn_grande:hover {
+  filter: brightness(1.15);
 }
 
-.botones .btn_lng:hover{
-    background:  var(--color-secundario);
-    color: white;
+.botones .btn_lng {
+  /*hacer btn redondo*/
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  /*End btn redondo*/
+  border: none;
+  background: transparent;
+  color: var(--color-texto);
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 650;
+  margin: 0px 3px;
+  padding: 0px 2px;
+  transition: all 0.3s;
+}
+
+.botones .btn_lng:hover {
+  background: var(--color-secundario);
+  color: white;
 }

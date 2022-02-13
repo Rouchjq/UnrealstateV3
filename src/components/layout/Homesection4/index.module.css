@@ -1,53 +1,50 @@
-.contenedor_principal{
-    background-image: url(../../../assets/images/homesection4/img0.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 50px 0px;
-    padding-bottom: 300px;
-    border-radius: 50px 50px 0px 0px;
-    margin-bottom: -250px;
-    width: 100%;
+.contenedor_principal {
+  background-image: url(../../../assets/images/homesection4/img0.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0px;
+  padding-bottom: 300px;
+  border-radius: 50px 50px 0px 0px;
+  margin-bottom: -250px;
+  width: 100%;
 }
 
-
-.lineUp{
-    height: 8px;
-    width: 100px;
-    margin: auto;
-    background-color: var(--color-secundario);
-    border-radius: 50px;
-   
+.lineUp {
+  height: 8px;
+  width: 100px;
+  margin: auto;
+  background-color: var(--color-secundario);
+  border-radius: 50px;
 }
 
-.contenedor_principal h1{
-    margin-top: 40px;
-    text-align: center;
-    color: var(--color-titulos);
-
+.contenedor_principal h1 {
+  margin-top: 40px;
+  text-align: center;
+  color: var(--color-titulos);
 }
-.contenedor_principal p{
-    margin-top: 20px;
-    text-align: center;
-    color: var(--color-texto);
-    font-size: 1.1rem;
-
+.contenedor_principal p {
+  margin-top: 20px;
+  text-align: center;
+  color: var(--color-texto);
+  font-size: 1.1rem;
 }
 
-.btn_grande{
-    margin-top: 20px;
-    margin-left: 44.7%;
-    padding: 14px 54px;
-    border-radius: 10px;
-    background: var(--color-secundario);
-    color: white;
-    outline: none;
-    border: 2px var(--color-secundario);
-    cursor: pointer;
-    transition: all 0.3s;
-    font-size: 0.9rem;
-    font-weight: 500;
+.btn_grande {
+  margin-top: 20px;
+  margin-left: 44.7%;
+  padding: 14px 54px;
+  border-radius: 10px;
+  background: var(--color-secundario);
+  color: white;
+  outline: none;
+  border: 2px var(--color-secundario);
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: 'poppins';
 }
 
-.btn_grande:hover{
-    filter: brightness(1.15);
+.btn_grande:hover {
+  filter: brightness(1.15);
 }

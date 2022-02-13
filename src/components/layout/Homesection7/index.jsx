@@ -2,7 +2,7 @@ import style from './index.module.css';
 
 export const Homesection7 = () => {
   return (
-    <div className={style.contenedor_principal}>
+    <section className={style.contenedor_principal}>
       <div className={style.lineUp}></div>
       <div className={style.titulos}>
         <h1>Roadmap</h1>
@@ -95,6 +95,6 @@ export const Homesection7 = () => {
         <button>Fase 5</button>
         <button>Fase 6</button>
       </div>
-    </div>
+    </section>
   );
 };

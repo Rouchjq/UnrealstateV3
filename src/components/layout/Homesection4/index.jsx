@@ -1,10 +1,10 @@
-import React from "react";
-import style from "./index.module.css";
+import React from 'react';
+import style from './index.module.css';
 
 export const Homesection4 = () => {
   return (
     <div className={style.back}>
-      <div className={style.contenedor_principal}>
+      <section className={style.contenedor_principal}>
         <div className={style.lineUp}></div>
         <h1>Una plataforma que lo hace todo por ti</h1>
         <p>
@@ -15,7 +15,7 @@ export const Homesection4 = () => {
           luga
         </p>
         <button className={style.btn_grande}>Empezar</button>
-      </div>
+      </section>
     </div>
   );
 };

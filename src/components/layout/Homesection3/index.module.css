@@ -6,6 +6,7 @@
   width: 100px;
   background-color: var(--color-secundario);
   border-radius: 50px;
+  margin-bottom: 20px;
 }
 
 .titulos h1 {

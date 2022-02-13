@@ -1,16 +1,37 @@
 
-/* AccordionDemo.css */
-
-.accordion-demo .accordion-custom i, .accordion-demo .accordion-custom span {
-    vertical-align: middle;
+.acordeon{
+    padding-inline: 5rem;
 }
 
-.accordion-demo .accordion-custom span {
-    margin: 0 .5rem;
+.acordeon :global(.p-accordion-header > a ):focus {
+    box-shadow: none !important;
+    font-weight: bold !important;
 }
 
-.accordion-demo .p-accordion p {
-    line-height: 1.5;
-    margin: 0;
+.acordeon :global(.p-accordion-header > a){
+    background: transparent !important;
+    border: none !important; 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-size: 26px;
+    font-weight: 500 !important;
+    color: var(--color-titulos) !important;
+    padding: 1.5rem 0px !important;
+    margin-right: -10px;
 }
-           
+
+.acordeon :global(.p-accordion-content ){
+    background: transparent !important;
+    border: none !important;
+}
+
+.acordeon :global(.p-accordion-content > p ){
+    color: var(--color-texto);
+    font-size: 20px;
+}
+
+.acordeon :global(.p-accordion-tab){
+    margin-bottom: 2rem !important;
+    border-bottom: 2px solid var(--color-secundario);
+}

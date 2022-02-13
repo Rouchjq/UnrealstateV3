@@ -14,11 +14,11 @@ export const Footer = () => {
         <form className={style.footer_form}>
           <div className={style.form_item}>
             <label htmlFor="name">Email</label>
-            <input id="name" name="name" type="name" />
+            <input autocomplete="off" id="name" name="name" type="name" />
           </div>
           <div className={style.form_item}>
             <label htmlFor="email">Correo electronico</label>
-            <input id="email" name="email" type="email" />
+            <input autocomplete="off" id="email" name="email" type="email" />
           </div>
           <div className={style.form_button}>
             <button onClick={handleSubmit}>Suscribete</button>

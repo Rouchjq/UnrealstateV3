@@ -58,6 +58,18 @@
   margin-top: 30px;
 }
 
+.contenedor_botones button:first-child {
+  background: #fff;
+  color: #3dba75;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  box-shadow: 0px 0px 10px #fff;
+}
+/* .contenedor_botones button:first-child:hover {
+  background: transparent;
+  color: #fff;
+} */
 .contenedor_botones button {
   margin-top: 20px;
   width: 30%;
@@ -74,18 +86,4 @@
   text-transform: uppercase;
   font-family: 'poppins';
   margin: 0 10px;
-}
-
-.contenedor_botones button:first-child:hover {
-  background: transparent;
-  color: #fff;
-}
-
-.contenedor_botones button:first-child {
-  background: #fff;
-  color: #3dba75;
-  outline: none;
-  border: none;
-  font-weight: 700;
-  box-shadow: 0px 0px 10px #fff;
 }

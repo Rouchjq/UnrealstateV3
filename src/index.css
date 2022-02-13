@@ -1,17 +1,19 @@
 :root {
-    --color-titulos: #111130;
-    --color-secundario: rgb(87, 230, 114);
-    --color-botones: #0f1442;
-    --color-elementos: #0f1442;
-    --color-texto: #6e6e6e;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* background-color: rgba(153, 229, 162, 0.7) ; */
-    /* background-image: url(/src/assets/images/Header/fondo0.jpg);
+  --color-titulos: #111130;
+  --color-secundario: rgb(87, 230, 114);
+  --color-botones: #0f1442;
+  --color-elementos: #0f1442;
+  --color-texto: #6e6e6e;
+  --color-gris-background: #cfd6d1;
+  --color-ligth-gris-background: #d3dad5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgba(153, 229, 162, 0.7) ; */
+  /* background-image: url(/src/assets/images/Header/fondo0.jpg);
     background-size: cover; */
-    font-family: 'Poppins', sans-serif, Roboto;
-  }
+  font-family: 'Poppins', sans-serif, Roboto;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Footer } from '../../components/common/Footer';
 import { Homesection1 } from '../../components/layout/Homesection1';
 import { Homesection2 } from '../../components/layout/Homesection2';
 import { Homesection3 } from '../../components/layout/Homesection3';
@@ -16,6 +17,7 @@ export const Homepage = () => {
       <Homesection5 />
       {/* Homesection6 en Homesection5 */}
       <Homesection7 />
+      <Footer />
     </>
   );
 };

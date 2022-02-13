@@ -1,0 +1,22 @@
+.contenedor_principal{
+    background-image: url(../../../assets/images/homesection8/img0.png);
+    background-size: cover;
+
+
+    padding:80px 100px;
+}
+
+
+.lineUp{
+    height: 8px;
+    width: 100px;
+    background-color: var(--color-secundario);
+    border-radius: 50px;
+   
+}
+
+.contenedor_principal h1{
+    font-size: 2.5rem;
+    color: var(--color-titulos);
+    margin-bottom: 45px;
+}

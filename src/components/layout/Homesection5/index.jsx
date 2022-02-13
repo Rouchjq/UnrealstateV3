@@ -1,12 +1,12 @@
-import React from 'react';
-import style from './index.module.css';
-import img1 from '../../../assets/images/homesection5/img1.png';
-import btn1 from '../../../assets/images/homesection5/btn1.png';
-import icon1 from '../../../assets/images/homesection5/icon1.png';
-import icon2 from '../../../assets/images/homesection5/icon2.png';
-import icon3 from '../../../assets/images/homesection5/icon3.png';
-import icon4 from '../../../assets/images/homesection5/icon4.png';
-import { Homesection6 } from '../Homesection6';
+import React from "react";
+import style from "./index.module.css";
+import img1 from "../../../assets/images/homesection5/img1.png";
+import btn1 from "../../../assets/images/homesection5/btn1.png";
+import icon1 from "../../../assets/images/homesection5/icon1.png";
+import icon2 from "../../../assets/images/homesection5/icon2.png";
+import icon3 from "../../../assets/images/homesection5/icon3.png";
+import icon4 from "../../../assets/images/homesection5/icon4.png";
+import { Homesection6 } from "../Homesection6";
 
 export const Homesection5 = () => {
   return (
@@ -35,7 +35,7 @@ export const Homesection5 = () => {
         <div className={style.numberTwo}>
           <h1>95%</h1>
           <p>
-            De los potenciales compradores muestra más interés en propiedades{' '}
+            De los potenciales compradores muestra más interés en propiedades{" "}
             <br />
             que ofrecen recorridos 360°
           </p>
@@ -59,16 +59,20 @@ export const Homesection5 = () => {
             <h1>funcionalidades</h1>
           </div>
 
-          <div className={style.funciones}>
-            <div className={style.col1}>
+          <div className="grid ">
+            <div className={`col-4 col-offset-1 my-3 ${style.box_img}`}>
               <img src={icon1} alt="Tour Virtual" />
+            </div>
 
+            <div className={`col-4 col-offset-1 my-3 ${style.box_img}`}>
               <img src={icon3} alt="Imgenes" />
             </div>
 
-            <div className={style.col2}>
-              <img src={icon2} alt="Video" />
+            <div className={`col-4 col-offset-1 my-3 ${style.box_img}`}>
+              <img src={icon2} alt="Video" className={style.video} />
+            </div>
 
+            <div className={`col-4 col-offset-1 my-3 ${style.box_img}`}>
               <img src={icon4} alt="Video 360" />
             </div>
           </div>

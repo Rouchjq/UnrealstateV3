@@ -1,39 +1,59 @@
-.contenedor_principal{
-    background-color: white;
-    background-image: url(../../../assets/images/homesection1/img0.png);
-    background-size: contain;
-    height: calc(100vh-(100px));
+.contenedor_principal {
+  background-color: white;
+  background-image: url(../../../assets/images/homesection1/img0.png);
+  background-size: contain;
+  width: 100%;
+  height: calc(100vh- (100px));
 }
 
-.titulos{
-    text-align: center;
-    margin-top: 10px;
+.titulos {
+  text-align: center;
+  margin-top: 10px;
 }
 
-.titulos h1{
-    margin: 0px 0px;
-    color: var(--color-titulos);
-    font-size: 1.92rem;
-    font-weight: 800;
-
+.titulos h1 {
+  margin: 0px 0px;
+  color: var(--color-titulos);
+  font-size: 1.92rem;
+  font-weight: 800;
 }
 
-.text{
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 70px;
-    color: var(--color-texto);
-    font-size: 1.09rem;
+.text {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  color: var(--color-texto);
+  font-size: 1.09rem;
 }
 
-.imgs_container{
-    display: flex;
-    width: 100%;
-    height: 340px;
+.imgs_container {
+  display: flex;
+  width: 100%;
+  height: 340px;
 }
 
-.imgs_container img{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+.imgs_container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* RESPONSIVE MOBILE */
+
+@media screen and (max-width: 500px) {
+  .contenedor_principal {
+    background-size: cover;
+  }
+  .titulos h1 {
+    font-size: 1.4rem;
+  }
+
+  .text {
+    font-size: 0.92rem;
+  }
+
+  .imgs_container {
+    display: block;
+    overflow: scroll;
+  }
 }

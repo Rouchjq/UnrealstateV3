@@ -49,7 +49,7 @@
 }
 
 .roadmap_item_content li::before {
-  content: '- ';
+  content: "- ";
 }
 
 .contenedor_botones {
@@ -84,6 +84,12 @@
   font-size: 1.6rem;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: 'poppins';
+  font-family: "poppins";
   margin: 0 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .contenedor_principal {
+    display: none;
+  }
 }

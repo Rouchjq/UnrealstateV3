@@ -24,7 +24,7 @@
   transition: all 0.3s;
   font-size: 0.9rem;
   font-weight: 500;
-  font-family: 'poppins';
+  font-family: "poppins";
 }
 .botones .btn_grande:hover {
   filter: brightness(1.15);
@@ -50,4 +50,21 @@
 .botones .btn_lng:hover {
   background: var(--color-secundario);
   color: white;
+}
+
+/* RESPONSIVE MOBILE */
+@media screen and (max-width: 500px) {
+  .menu_principal {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo {
+    margin-right: 10px;
+  }
+  .botones .btn_grande {
+    margin: 5px auto;
+  }
+  .botones .btn_lng {
+    display: none;
+  }
 }

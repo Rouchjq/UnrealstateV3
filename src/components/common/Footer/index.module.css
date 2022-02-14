@@ -45,7 +45,7 @@ input {
   margin-right: 2rem;
   height: 1.5rem;
   color: var(--color-texto);
-  font-family: 'poppins';
+  font-family: "poppins";
 }
 
 input:focus-visible {
@@ -73,9 +73,15 @@ label {
   transition: all 0.3s;
   font-size: 0.9rem;
   font-weight: 500;
-  font-family: 'poppins';
+  font-family: "poppins";
 }
 
 .form_button button:hover {
   filter: brightness(1.15);
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    display: none;
+  }
 }

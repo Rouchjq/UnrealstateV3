@@ -50,6 +50,12 @@
 }
 
 /* Responsive MOBILE */
+@media screen and (max-width: 327px) {
+  .btn_grande {
+    margin-left: 27%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .btn_grande {
     margin-left: 33%;

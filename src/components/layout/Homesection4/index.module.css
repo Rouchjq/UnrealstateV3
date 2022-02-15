@@ -18,6 +18,8 @@
 }
 
 .contenedor_principal h1 {
+  font-size: 2.2rem;
+  padding-inline: 30px;
   margin-top: 40px;
   text-align: center;
   color: var(--color-titulos);
@@ -50,14 +52,14 @@
 }
 
 /* Responsive MOBILE */
-@media screen and (max-width: 327px) {
+@media screen and (max-width: 600px) {
   .btn_grande {
-    margin-left: 27%;
+    margin-left: 33%;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 327px) {
   .btn_grande {
-    margin-left: 33%;
+    margin-left: 27%;
   }
 }

@@ -65,7 +65,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 30px;
+  padding-left: 35px;
 }
 .contenedor_contenido_text h1 {
   color: var(--color-titulos);
@@ -93,10 +93,44 @@ h1 {
   transition: all 0.3s;
   font-size: 1.3rem;
   font-weight: 500;
-  font-family: 'poppins';
+  font-family: "poppins";
 }
 
 .contenedor_contenido_text button:hover {
   background: var(--color-secundario);
   color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .contenedor_contenido {
+    display: block;
+  }
+
+  .contenedor_contenido_card {
+    width: 100%;
+    background-color: #aed1bc;
+    border-radius: 30px;
+    padding: 35px 35px 35px 35px;
+    margin-bottom: 10px;
+  }
+
+  .card_contend {
+    display: block;
+    text-align: center;
+  }
+  .card_contend p {
+    padding-bottom: 10px;
+  }
+  .contenedor_contenido_text {
+    width: 100%;
+    padding-inline: 10px;
+    text-align: center;
+  }
+  .contenedor_contenido_text h1 {
+    font-size: 2.3rem;
+  }
+
+  .contenedor_contenido_text button {
+    margin-left: 33%;
+  }
 }

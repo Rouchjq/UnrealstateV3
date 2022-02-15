@@ -1,12 +1,12 @@
-import React from 'react';
-import style from './index.module.css';
-import img1 from '../../../assets/images/homesection5/img1.png';
-import btn1 from '../../../assets/images/homesection5/btn1.png';
-import icon1 from '../../../assets/images/homesection5/icon1.png';
-import icon2 from '../../../assets/images/homesection5/icon2.png';
-import icon3 from '../../../assets/images/homesection5/icon3.png';
-import icon4 from '../../../assets/images/homesection5/icon4.png';
-import { Homesection6 } from '../Homesection6';
+import React from "react";
+import style from "./index.module.css";
+import img1 from "../../../assets/images/homesection5/img1.png";
+import btn1 from "../../../assets/images/homesection5/btn1.png";
+import icon1 from "../../../assets/images/homesection5/icon1.png";
+import icon2 from "../../../assets/images/homesection5/icon2.png";
+import icon3 from "../../../assets/images/homesection5/icon3.png";
+import icon4 from "../../../assets/images/homesection5/icon4.png";
+import { Homesection6 } from "../Homesection6";
 
 export const Homesection5 = () => {
   return (
@@ -35,7 +35,7 @@ export const Homesection5 = () => {
         <div className={style.numberTwo}>
           <h1>95%</h1>
           <p>
-            De los potenciales compradores muestra más interés en propiedades{' '}
+            De los potenciales compradores muestra más interés en propiedades{" "}
             <br />
             que ofrecen recorridos 360°
           </p>

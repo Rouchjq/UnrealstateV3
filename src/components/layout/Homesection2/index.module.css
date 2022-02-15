@@ -20,8 +20,7 @@
 .contenedor_principal p {
   text-align: center;
   margin-top: 20px;
-  margin-left: 7%;
-  width: 90%;
+  width: 100%;
   color: var(--color-texto);
   font-size: 1.09rem;
 }

@@ -17,3 +17,9 @@
   color: var(--color-titulos);
   margin-bottom: 45px;
 }
+
+@media screen and (max-width: 800px) {
+  .contenedor_principal {
+    padding-inline: 10px;
+  }
+}

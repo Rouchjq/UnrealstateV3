@@ -49,12 +49,11 @@
 }
 
 .roadmap_item_content li::before {
-  content: '- ';
+  content: "- ";
 }
 
 .contenedor_botones {
   display: flex;
-
   margin-top: 30px;
 }
 
@@ -84,6 +83,35 @@
   font-size: 1.6rem;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: 'poppins';
-  margin: 0 10px;
+  font-family: "poppins";
+  margin: 10px 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .contenedor_principal {
+    padding-inline: 10px;
+  }
+
+  .contenedor_roadmap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contenedor_roadmap_item {
+    margin: 0 10px 30px 0px;
+  }
+
+  .roadmap_item_title h1 {
+    font-size: 1.9rem;
+  }
+
+  .roadmap_item_content {
+    font-size: 0.9rem;
+  }
+
+  .contenedor_botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }

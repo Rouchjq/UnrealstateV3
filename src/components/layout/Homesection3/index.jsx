@@ -1,9 +1,9 @@
-import React from 'react';
-import style from './index.module.css';
-import img1 from '../../../assets/images/homesection3/img1.png';
-import img2 from '../../../assets/images/homesection3/img2.png';
-import img3 from '../../../assets/images/homesection3/img3.png';
-import img4 from '../../../assets/images/homesection3/img4.png';
+import React from "react";
+import style from "./index.module.css";
+import img1 from "../../../assets/images/homesection3/img1.png";
+import img2 from "../../../assets/images/homesection3/img2.png";
+import img3 from "../../../assets/images/homesection3/img3.png";
+import img4 from "../../../assets/images/homesection3/img4.png";
 
 export const Homesection3 = () => {
   return (

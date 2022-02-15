@@ -40,7 +40,13 @@
 
 /* RESPONSIVE MOBILE */
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 801px) and (max-width: 1250px) {
+  .contenedor_principal {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .contenedor_principal {
     background-size: cover;
   }

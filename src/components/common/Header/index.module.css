@@ -61,8 +61,14 @@
   .logo {
     margin-right: 10px;
   }
+
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
   .botones .btn_grande {
     margin: 5px auto;
+    padding: 10px 28px;
   }
   .botones .btn_lng {
     display: none;

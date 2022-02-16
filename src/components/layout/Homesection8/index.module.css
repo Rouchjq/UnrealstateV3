@@ -22,4 +22,10 @@
   .contenedor_principal {
     padding-inline: 10px;
   }
+  .lineUp {
+    margin: auto;
+  }
+  .contenedor_principal h1 {
+    text-align: center;
+  }
 }

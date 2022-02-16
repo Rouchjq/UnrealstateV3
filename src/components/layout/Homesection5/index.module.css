@@ -198,17 +198,23 @@
 
 @media screen and (max-width: 800px) {
   .contenedor_principal {
-    padding: 80px 0px 150px 10px;
-    background-size: 270% 200%;
+    padding: 80px 0px 150px 0px;
+    background-size: 300% 200%;
+  }
+
+  .lineUp {
+    margin: auto;
   }
 
   .text_box h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
   }
 
   .text_box p {
-    font-size: 0.8rem;
-    padding-right: 5px;
+    font-size: 1rem;
+    padding-inline: 20px;
   }
   .number_box {
     display: block;
@@ -216,15 +222,23 @@
   .number_box .numberOne {
     text-align: center;
   }
+  .number_box .numberOne h1 {
+    font-size: 6rem;
+  }
   .number_box .numberOne p {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
+    padding: 20px;
   }
 
   .number_box .numberTwo {
     text-align: center;
   }
+  .number_box .numberTwo h1 {
+    font-size: 6rem;
+  }
   .number_box .numberTwo p {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
+    padding: 20px;
   }
 
   .video_box {

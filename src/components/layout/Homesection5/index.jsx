@@ -15,7 +15,7 @@ export const Homesection5 = () => {
       <div className={style.text_box}>
         <h1>Crea un tour virtual 360</h1>
         <p>
-          conecta tus inmuebles al mundo. Muestra tus propiedades a través de la
+          Conecta tus inmuebles al mundo. Muestra tus propiedades a través de la
           plataforma Unrealstate y aumentando tu ratio de conversión, reduce
           tiempo y costes, vende mas rápido, automatiza procesos formando parte
           de la mayor red de venta de inmuebles

@@ -30,10 +30,12 @@
   color: var(--color-texto);
   font-size: 1.1rem;
 }
+.contenedor_principal .box_btn {
+  text-align: center;
+  margin-top: 50px;
+}
 
 .btn_grande {
-  margin-top: 20px;
-  margin-left: 44.7%;
   padding: 14px 54px;
   border-radius: 10px;
   background: var(--color-secundario);
@@ -49,17 +51,4 @@
 
 .btn_grande:hover {
   filter: brightness(1.15);
-}
-
-/* Responsive MOBILE */
-@media screen and (max-width: 800px) {
-  .btn_grande {
-    align-self: center;
-  }
-}
-
-@media screen and (max-width: 327px) {
-  .btn_grande {
-    margin-left: 27%;
-  }
 }

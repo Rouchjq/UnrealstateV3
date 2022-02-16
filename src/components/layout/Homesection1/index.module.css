@@ -59,7 +59,7 @@
   }
 
   .imgs_container {
-    display: block;
-    overflow: scroll;
+    display: flexbox;
+    overflow: hidden;
   }
 }

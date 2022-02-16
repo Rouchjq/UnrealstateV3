@@ -71,7 +71,7 @@
 } */
 .contenedor_botones button {
   margin-top: 20px;
-  width: 30%;
+  width: 150px;
   padding: 15px 15px;
   border-radius: 50px;
   background: transparent;
@@ -90,6 +90,12 @@
 @media screen and (max-width: 800px) {
   .contenedor_principal {
     padding-inline: 10px;
+  }
+  .lineUp {
+    margin: auto;
+  }
+  .contenedor_principal h1 {
+    text-align: center;
   }
 
   .contenedor_roadmap {

@@ -102,11 +102,19 @@ h1 {
 }
 /* Responsive */
 
+@media screen and (max-width: 800px) {
+  .lineUp {
+    margin: auto;
+  }
+  .contenedor_principal h1 {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 1250px) {
   .contenedor_contenido {
     display: block;
   }
-
   .contenedor_contenido_card {
     width: 100%;
     padding: 35px 35px 35px 35px;

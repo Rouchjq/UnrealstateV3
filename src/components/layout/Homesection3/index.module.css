@@ -50,23 +50,32 @@
     padding-left: 10px;
     width: 100%;
   }
-
+  .lineUp {
+    margin: auto;
+    margin-bottom: 15px;
+  }
   .titulos h1 {
-    font-size: 2rem;
+    font-size: 2.09rem;
+    text-align: center;
   }
 
   .contenido_container {
     flex-direction: column;
-    margin-left: 50px;
   }
 
   .contenido_container .img_text {
     display: block;
-    font-size: 0.99rem;
+    font-size: 1.25rem;
     text-align: center;
   }
 
+  .contenido_container .img_text p {
+    margin: 0px;
+  }
+
   .contenido_container .img_text img {
-    margin-right: 90px;
+    width: auto;
+    height: auto;
+    margin-left: 40px;
   }
 }

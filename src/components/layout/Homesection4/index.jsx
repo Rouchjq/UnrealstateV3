@@ -1,5 +1,5 @@
-import React from 'react';
-import style from './index.module.css';
+import React from "react";
+import style from "./index.module.css";
 
 export const Homesection4 = () => {
   return (
@@ -14,7 +14,9 @@ export const Homesection4 = () => {
           Unrealstate gestiona las transacciones de inmuebles todo en un sólo
           luga
         </p>
-        <button className={style.btn_grande}>Empezar</button>
+        <div className={style.box_btn}>
+          <button className={style.btn_grande}>Empezar</button>
+        </div>
       </section>
     </div>
   );

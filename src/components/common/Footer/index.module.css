@@ -81,22 +81,27 @@
 }
 
 /* RESPONSIVE */
+
 @media screen and (max-width: 950px) {
+  .lineUp {
+    margin: auto;
+  }
   .footer_container h1 {
     font-size: 2rem;
+    text-align: center;
   }
 
   .footer_form {
     display: flex;
     flex-direction: column;
-    padding: 2% 5% 3% 5%;
+    padding: 2% 10% 3% 10%;
   }
   .form_button {
     align-self: center;
     margin-top: 20px;
   }
   .footer_form input {
-    padding: 20px 60px;
+    padding: 20px 10%;
   }
 }
 

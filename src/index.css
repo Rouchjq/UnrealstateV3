@@ -12,8 +12,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: rgba(153, 229, 162, 0.7) ; */
+  background-color: white;
   /* background-image: url(/src/assets/images/Header/fondo0.jpg);
     background-size: cover; */
-  font-family: 'Poppins', sans-serif, Roboto;
+  font-family: "Poppins", sans-serif, Roboto;
 }

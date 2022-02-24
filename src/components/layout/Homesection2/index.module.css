@@ -24,3 +24,9 @@
   color: var(--color-texto);
   font-size: 1.09rem;
 }
+
+@media screen and (max-width: 800px) {
+  .lineUp {
+    margin-top: 20px;
+  }
+}

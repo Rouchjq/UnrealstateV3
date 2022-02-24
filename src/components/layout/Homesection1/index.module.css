@@ -49,6 +49,7 @@
 @media screen and (max-width: 800px) {
   .contenedor_principal {
     background-size: cover;
+    margin-bottom: 20px;
   }
   .titulos h1 {
     font-size: 1.4rem;
@@ -61,5 +62,6 @@
   .imgs_container {
     display: flexbox;
     overflow: hidden;
+    margin-bottom: 20px;
   }
 }

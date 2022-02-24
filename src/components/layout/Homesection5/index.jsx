@@ -44,10 +44,41 @@ export const Homesection5 = () => {
 
       <div className={style.video_box}>
         <div className={style.img_video}>
-          <img src={img1} alt="imagen" className={style.view} />
+          <video
+            id="my-player"
+            class="video-js"
+            controls
+            preload="auto"
+            poster="//vjs.zencdn.net/v/oceans.png"
+            data-setup="{}"
+          >
+            <source
+              src="//vjs.zencdn.net/v/oceans.mp4"
+              type="video/mp4"
+            ></source>
+            <source
+              src="//vjs.zencdn.net/v/oceans.webm"
+              type="video/webm"
+            ></source>
+            <source
+              src="//vjs.zencdn.net/v/oceans.ogv"
+              type="video/ogg"
+            ></source>
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider
+              upgrading to a web browser that
+              <a
+                href="https://videojs.com/html5-video-support/"
+                target="_blank"
+              >
+                supports HTML5 video
+              </a>
+            </p>
+          </video>
+          {/* <img src={img1} alt="imagen" className={style.view} />
           <img src={btn1} alt="boton" className={style.btn_reproductor1} />
           <img src={btn1} alt="boton" className={style.btn_reproductor2} />
-          <img src={btn1} alt="boton" className={style.btn_reproductor3} />
+          <img src={btn1} alt="boton" className={style.btn_reproductor3} /> */}
         </div>
 
         <div className={style.btn_funciones}>

@@ -44,6 +44,7 @@ export const Homesection5 = () => {
 
       <div className={style.video_box}>
         <div className={style.img_video}>
+          {/* Pluguin de video */}
           <video
             id="my-player"
             class="video-js"
@@ -70,6 +71,7 @@ export const Homesection5 = () => {
               <a
                 href="https://videojs.com/html5-video-support/"
                 target="_blank"
+                rel="noreferrer"
               >
                 supports HTML5 video
               </a>

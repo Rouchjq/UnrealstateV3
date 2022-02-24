@@ -47,7 +47,7 @@ export const Homesection5 = () => {
           {/* Pluguin de video */}
           <video
             id="my-player"
-            class="video-js"
+            class={`video-js ${style.reproductor}`}
             controls
             preload="auto"
             poster="//vjs.zencdn.net/v/oceans.png"

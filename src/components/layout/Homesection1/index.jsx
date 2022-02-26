@@ -1,8 +1,8 @@
-import React from 'react';
-import style from './index.module.css';
-import { Header } from '../../common/Header';
-import img1 from '../../../assets/images/homesection1/img1.png';
-import img2 from '../../../assets/images/homesection1/img2.jpg';
+import React from "react";
+import style from "./index.module.css";
+import { Header } from "../../common/Header";
+import img1 from "../../../assets/images/homesection1/img1.png";
+import img2 from "../../../assets/images/homesection1/img2.jpg";
 
 export const Homesection1 = () => {
   return (
@@ -16,9 +16,9 @@ export const Homesection1 = () => {
 
       <div className={style.text}>
         <p>
-          Compra,vende e invierte en propiedades. Genera ingresos a través
-          <br />
-          de la plataforma descentralizada basad en blockchain
+          Compra,vende e invierte en propiedades. <br />
+          Genera ingresos a través de la plataforma descentralizada basad en
+          blockchain
         </p>
       </div>
 

@@ -14,20 +14,17 @@ export const Acordeon = () => {
             }
           >
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-              earum adipisci vitae ipsum eaque? Praesentium pariatur natus dicta
-              officiis quidem ratione, dolor accusantium modi molestias quis
-              tempore explicabo sunt a!
+              Un Tour Virtual inmobiliario es un sistema para poder acercar la
+              experiencia de una visita de un inmueble sin límite de distancia.
             </p>
           </AccordionTab>
           <AccordionTab
             headerTemplate={<Templateheader Texto="¿Qué es Unrealstate?" />}
           >
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-              numquam corrupti quasi quae dolorem deleniti amet. Velit
-              accusantium asperiores veniam, molestiae tempore blanditiis rem
-              accusamus saepe quas cum non ipsum!
+              Es una plataforma que acerca vendedores, promotores,
+              constructoras, inmobiliarias, para converger todas juntas en una
+              misma plataforma con un mismo fin vender inmuebles.
             </p>
           </AccordionTab>
           <AccordionTab
@@ -36,22 +33,34 @@ export const Acordeon = () => {
             }
           >
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-              aliquam facere excepturi nostrum dolorem, animi eveniet sit
-              praesentium quasi placeat sequi debitis id! Cupiditate, atque esse
-              nam nobis deserunt veniam!
+              Esta tecnología nos facilita que el cliente pueda repetir las
+              veces que quiera la experiencia, ahorrar en desplazamientos y en
+              tiempo, y evitar esperas innecesarias para poder visitar un
+              inmueble.
             </p>
           </AccordionTab>
           <AccordionTab
             headerTemplate={
-              <Templateheader Texto="¿Qué necesito para virtualizar uan casa o crear una visita virtual?" />
+              <Templateheader Texto="¿Que es la blockchain? Y porque la usamos?" />
             }
           >
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quo
-              quaerat cum, cumque labore ad praesentium possimus, quasi autem
-              voluptatum aliquam mollitia non sapiente assumenda, fuga
-              architecto necessitatibus. Amet, consectetur.
+              A través de la tecnología Blockchain y el Internet 3.0 la
+              plataforma, dota de seguridad y fiabilidad para hacer todas las
+              transacciones mucho mas rapidas y legales, poniendo al alcance de
+              todos la información de todo el sistema inmobiliario.
+            </p>
+          </AccordionTab>
+          <AccordionTab
+            headerTemplate={
+              <Templateheader Texto="¿Qué necesito para virtualizar una casa o crear una visita virtual?" />
+            }
+          >
+            <p>
+              Para poder Virtual izar el inmueble necesitarás que te hagamos un
+              vídeo Tour de el inmueble seguido de añadir toda la información
+              dentro de nuestra plataforma para así poder entrar en las opciones
+              de compra-venta que ofrece la plataforma.
             </p>
           </AccordionTab>
         </Accordion>

@@ -102,7 +102,7 @@
 }
 
 .titulo h1 {
-  margin: -10px 0px -10px 19%;
+  margin: 0px 0px -10px 19%;
   color: var(--color-titulos);
   font-size: 2.2rem;
 }
@@ -110,14 +110,16 @@
 .btn_funciones h1 span {
   color: var(--color-secundario);
 }
+
+.box_icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 .box_img {
   border: 2px solid transparent;
   border-radius: 20px;
-  padding: 5px 20px !important;
+  padding: 5px 10px !important;
   transition: all 0.3s;
-}
-.box_icons {
-  grid-template-columns: repeat(2, 1fr);
 }
 .box_img:hover {
   border: 2px solid var(--color-secundario);
@@ -129,9 +131,7 @@
   width: 100%;
   height: 80px;
   object-fit: contain;
-}
-
-/* REPONSIVE */
+} /* REPONSIVE */
 
 @media screen and (min-width: 801px) and (max-width: 1250px) {
   .contenedor_principal {
@@ -157,6 +157,9 @@
   .number_box {
     padding-inline: 10%;
   }
+  .bg_video_box {
+    padding-inline: 50px;
+  }
   .video_box {
     display: flex;
     flex-direction: column;
@@ -167,7 +170,7 @@
   }
   .reproductor {
     /* background-color: white; */
-    width: 500px;
+    width: 90%;
     height: 350px;
     margin: auto;
     margin-top: 5%;
@@ -176,13 +179,18 @@
 
   .titulo {
     text-align: center;
+    padding-top: 0px;
   }
   .titulo h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-left: 0px;
   }
 
   .box_icons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: inherit;
+    padding-bottom: 50px;
   }
 }
 
@@ -200,6 +208,7 @@
     font-size: 2rem;
     text-align: center;
     margin-top: 20px;
+    padding-inline: 0px;
   }
 
   .text_box p {
@@ -208,6 +217,7 @@
   }
   .number_box {
     display: block;
+    padding-inline: 0px;
   }
   .number_box .numberOne {
     text-align: center;
@@ -230,7 +240,9 @@
     font-size: 0.9rem;
     padding: 20px;
   }
-
+  .bg_video_box {
+    padding-inline: 20px;
+  }
   .video_box {
     display: flex;
     flex-direction: column;
@@ -241,15 +253,23 @@
   }
   .reproductor {
     /* background-color: white; */
-    width: 300px;
+    width: 90%;
     height: 250px;
     margin: auto;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: -30px;
   }
-
   .titulo h1 {
     text-align: center;
+    text-decoration: dotted;
+    font-size: 1.2rem;
     margin-left: 0px;
+    margin-bottom: -40px;
+  }
+  .box_icons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: inherit;
+    padding-bottom: 0px;
   }
 }

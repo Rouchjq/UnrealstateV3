@@ -23,10 +23,21 @@
   width: 100%;
   color: var(--color-texto);
   font-size: 1.09rem;
+  padding-inline: 100px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .contenedor_principal p {
+    padding-inline: 300px;
+  }
 }
 
 @media screen and (max-width: 800px) {
   .lineUp {
     margin-top: 20px;
+  }
+  .contenedor_principal p {
+    padding-inline: 20px;
+    font-size: 0.95rem;
   }
 }

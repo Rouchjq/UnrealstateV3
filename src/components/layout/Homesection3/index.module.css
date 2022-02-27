@@ -1,16 +1,17 @@
 .contenedor_principal {
   margin-top: 4%;
   width: 100%;
-  padding-left: 10%;
 }
 .lineUp {
   height: 8px;
   width: 100px;
+  margin-left: 10%;
   background-color: var(--color-secundario);
   border-radius: 50px;
   margin-bottom: 20px;
 }
 .titulos h1 {
+  margin-left: 10%;
   color: var(--color-titulos);
   font-size: 2.2rem;
   font-weight: bolder;
@@ -24,18 +25,18 @@
 .img_text {
   display: flex;
   align-items: center;
-  margin: 50px 0px;
+  margin: 50px 100px 0px 0px;
 }
 
 .img_text img {
   margin-right: 40px;
+  margin-left: 40px;
   width: 80px;
   height: 65px;
   object-fit: contain;
 }
 
 .img_text p {
-  margin-right: 100px;
   color: var(--color-texto);
 }
 
@@ -44,19 +45,37 @@
   font-size: 1.1rem;
 }
 
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  .img_text {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (min-width: 699px) and (max-width: 800px) {
+  .contenido_container {
+    padding-inline: 150px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 698px) {
+  .contenido_container {
+    padding-left: 16%;
+  }
+}
 @media screen and (max-width: 800px) {
   .contenedor_principal {
     margin-top: 20%;
-    padding-left: 10px;
+    padding-inline: 0px;
     width: 100%;
+    margin-bottom: 10%;
   }
   .lineUp {
     margin: auto;
     margin-bottom: 15px;
   }
   .titulos h1 {
-    font-size: 2.09rem;
+    font-size: 1.5rem;
     text-align: center;
+    margin-left: 0px;
   }
 
   .contenido_container {
@@ -64,18 +83,20 @@
   }
 
   .contenido_container .img_text {
-    display: block;
-    font-size: 1.25rem;
+    font-size: 0.89rem;
     text-align: center;
+    margin-right: 10px;
   }
 
   .contenido_container .img_text p {
     margin: 0px;
+    text-align: start;
+    font-size: 0.8rem;
   }
 
   .contenido_container .img_text img {
-    width: auto;
+    width: 100px;
     height: auto;
-    margin-left: 40px;
+    margin-left: 20px;
   }
 }

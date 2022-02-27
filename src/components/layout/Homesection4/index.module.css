@@ -29,6 +29,7 @@
   text-align: center;
   color: var(--color-texto);
   font-size: 1.1rem;
+  padding-inline: 350px;
 }
 .contenedor_principal .box_btn {
   text-align: center;
@@ -51,4 +52,27 @@
 
 .btn_grande:hover {
   filter: brightness(1.15);
+}
+
+@media screen and (min-width: 651px) and (max-width: 1300px) {
+  .contenedor_principal p {
+    padding-inline: 20%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .btn_grande {
+    padding: 18px 90px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contenedor_principal h1 {
+    font-size: 1.8rem;
+  }
+  .contenedor_principal p {
+    font-size: 0.9rem;
+    padding-inline: 10%;
+  }
 }

@@ -9,10 +9,8 @@ export const Homesection4 = () => {
         <h1>Una plataforma que lo hace todo por ti</h1>
         <p>
           Desde el momento en que se lista una propiedad hasta el cierre del
-          trato
-          <br />
-          Unrealstate gestiona las transacciones de inmuebles todo en un sólo
-          luga
+          trato Unrealstate gestiona las transacciones de inmuebles todo en un
+          sólo luga
         </p>
         <div className={style.box_btn}>
           <button className={style.btn_grande}>Empezar</button>

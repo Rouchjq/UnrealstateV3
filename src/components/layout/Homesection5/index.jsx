@@ -27,92 +27,91 @@ export const Homesection5 = () => {
           <h1>74%</h1>
           <p>
             de los agentes registrados en Unrealstate aseguran utilizar la
-            plataforma <br />
-            para conocer más ofertas de propiedades a nivel nacional
+            plataforma para conocer más ofertas de propiedades a nivel nacional
           </p>
         </div>
 
         <div className={style.numberTwo}>
           <h1>95%</h1>
           <p>
-            De los potenciales compradores muestra más interés en propiedades{" "}
-            <br />
+            De los potenciales compradores muestra más interés en propiedades
             que ofrecen recorridos 360°
           </p>
         </div>
       </div>
 
-      <div className={style.video_box}>
-        <div className={style.img_video}>
-          {/* Pluguin de video */}
-          <video
-            id="my-player"
-            class={`video-js ${style.reproductor}`}
-            controls
-            preload="auto"
-            poster="//vjs.zencdn.net/v/oceans.png"
-            data-setup="{}"
-          >
-            <source
-              src="//vjs.zencdn.net/v/oceans.mp4"
-              type="video/mp4"
-            ></source>
-            <source
-              src="//vjs.zencdn.net/v/oceans.webm"
-              type="video/webm"
-            ></source>
-            <source
-              src="//vjs.zencdn.net/v/oceans.ogv"
-              type="video/ogg"
-            ></source>
-            <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider
-              upgrading to a web browser that
-              <a
-                href="https://videojs.com/html5-video-support/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                supports HTML5 video
-              </a>
-            </p>
-          </video>
-          {/* <img src={img1} alt="imagen" className={style.view} />
+      <div className={style.bg_video_box}>
+        <div className={style.video_box}>
+          <div className={style.img_video}>
+            {/* Pluguin de video */}
+            <video
+              id="my-player"
+              class={`video-js ${style.reproductor}`}
+              controls
+              preload="auto"
+              poster="//vjs.zencdn.net/v/oceans.png"
+              data-setup="{}"
+            >
+              <source
+                src="//vjs.zencdn.net/v/oceans.mp4"
+                type="video/mp4"
+              ></source>
+              <source
+                src="//vjs.zencdn.net/v/oceans.webm"
+                type="video/webm"
+              ></source>
+              <source
+                src="//vjs.zencdn.net/v/oceans.ogv"
+                type="video/ogg"
+              ></source>
+              <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider
+                upgrading to a web browser that
+                <a
+                  href="https://videojs.com/html5-video-support/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  supports HTML5 video
+                </a>
+              </p>
+            </video>
+            {/* <img src={img1} alt="imagen" className={style.view} />
           <img src={btn1} alt="boton" className={style.btn_reproductor1} />
           <img src={btn1} alt="boton" className={style.btn_reproductor2} />
           <img src={btn1} alt="boton" className={style.btn_reproductor3} /> */}
-        </div>
-
-        <div className={style.btn_funciones}>
-          <div className={style.titulo}>
-            <h1>
-              <span>Navega</span> por las
-            </h1>
-            <h1>principales</h1>
-            <h1>funcionalidades</h1>
           </div>
 
-          <div className="grid ">
-            <div className={`col-4 col-offset-1 my-3 ${style.box_img}`}>
-              <img src={icon1} alt="Tour Virtual" />
+          <div className={style.btn_funciones}>
+            <div className={style.titulo}>
+              <h1>
+                <span>Navega</span> por las principales funcionalidades
+              </h1>
             </div>
 
-            <div className={`col-4 col-offset-1 my-3 ${style.box_img}`}>
-              <img src={icon3} alt="Imgenes" />
-            </div>
+            <div className={`${style.box_icons}`}>
+              <div className={`${style.box_img}`}>
+                <img src={icon1} alt="Tour Virtual" />
+              </div>
 
-            <div className={`col-4 col-offset-1 my-3 ${style.box_img}`}>
-              <img src={icon2} alt="Video" className={style.video} />
-            </div>
+              <div className={`${style.box_img}`}>
+                <img src={icon3} alt="Imgenes" />
+              </div>
 
-            <div className={`col-4 col-offset-1 my-3 ${style.box_img}`}>
-              <img src={icon4} alt="Video 360" />
+              <div className={` ${style.box_img}`}>
+                <img src={icon2} alt="Video" className={style.video} />
+              </div>
+
+              <div className={`${style.box_img}`}>
+                <img src={icon4} alt="Video 360" />
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <Homesection6 />
+      <div className={style.S6}>
+        <Homesection6 />
+      </div>
     </section>
   );
 };

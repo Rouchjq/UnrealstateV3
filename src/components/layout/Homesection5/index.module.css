@@ -3,11 +3,15 @@
   background-size: 150% auto;
   background-position-x: center;
   background-repeat: no-repeat;
-  padding: 150px 130px 50px 130px;
+  padding: 150px 0px 50px 0px;
   width: 100%;
+}
+.S6 {
+  padding-inline: 130px;
 }
 
 .lineUp {
+  margin-left: 130px;
   height: 8px;
   width: 100px;
   background-color: var(--color-elementos);
@@ -19,18 +23,21 @@
   color: white;
   font-size: 2.2rem;
   margin-bottom: 0px;
+  padding-inline: 130px;
 }
 .text_box p {
   color: rgb(255, 255, 255);
   font-size: 1.3rem;
   width: 100%;
   font-weight: 300;
+  padding-inline: 130px;
 }
 
 .number_box {
   display: flex;
   justify-content: space-around;
   margin-bottom: 100px;
+  padding-inline: 130px;
 }
 
 .numberOne {
@@ -48,6 +55,7 @@
   margin-top: -30px;
   color: white;
   font-size: 0.8rem;
+  padding-right: 250px;
 }
 
 .numberTwo h1 {
@@ -63,7 +71,9 @@
   color: white;
   font-size: 0.8rem;
 }
-
+.bg_video_box {
+  padding-inline: 130px;
+}
 .video_box {
   display: flex;
   justify-content: space-between;
@@ -73,42 +83,26 @@
   padding-bottom: 45px;
   width: 100%;
 }
-/* .img_video {
-  width: 70%;
-  height: 80%;
-} */
 
 .reproductor {
-  /* background-color: white; */
-  width: 700px;
+  width: 600px;
   height: 450px;
   margin: 40px 0px 0px 20px;
-
-  /* margin: 120px 0px 0px 30px; */
   border-radius: 10px;
 }
 
-/* .img_video {
-  width: 100%;
-
-  padding: 20px 30px;
-  position: relative;
-} */
-
 .btn_funciones {
   margin-right: 0px;
-  /* border: 2px solid rgb(187, 120, 20); */
   margin: 0px 10px;
 }
 
 .titulo {
   margin-bottom: 50px;
   padding-top: 50px;
-  padding-right: 10px;
 }
 
 .titulo h1 {
-  margin: -10px 0px;
+  margin: -10px 0px -10px 19%;
   color: var(--color-titulos);
   font-size: 2.2rem;
 }
@@ -122,7 +116,9 @@
   padding: 5px 20px !important;
   transition: all 0.3s;
 }
-
+.box_icons {
+  grid-template-columns: repeat(2, 1fr);
+}
 .box_img:hover {
   border: 2px solid var(--color-secundario);
   border-radius: 20px;
@@ -141,9 +137,29 @@
   .contenedor_principal {
     background-size: 270% 200%;
   }
+  .numberOne h1 {
+    font-size: 7rem;
+  }
+  .numberTwo h1 {
+    font-size: 7rem;
+  }
+  .numberOne p {
+    font-size: 0.9rem;
+    padding-right: 20%;
+  }
+
+  .numberTwo p {
+    margin-top: -30px;
+    color: white;
+    font-size: 0.9rem;
+  }
+
+  .number_box {
+    padding-inline: 10%;
+  }
   .video_box {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding-bottom: 0px;
     width: 100%;
     margin-left: -5px;
@@ -163,6 +179,10 @@
   }
   .titulo h1 {
     font-size: 3.5rem;
+    margin-left: 0px;
+  }
+
+  .box_icons {
   }
 }
 
@@ -213,7 +233,7 @@
 
   .video_box {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding-bottom: 0px;
     width: 100%;
     margin-left: -5px;
@@ -228,7 +248,8 @@
     margin-bottom: 5%;
   }
 
-  .titulo {
+  .titulo h1 {
     text-align: center;
+    margin-left: 0px;
   }
 }

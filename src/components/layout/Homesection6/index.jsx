@@ -1,5 +1,5 @@
-import style from './index.module.css';
-import img1 from '../../../assets/images/homesection6/3.jpg';
+import style from "./index.module.css";
+import img1 from "../../../assets/images/homesection6/3.jpg";
 
 export const Homesection6 = () => {
   return (
@@ -8,6 +8,7 @@ export const Homesection6 = () => {
         <div className={style.lineUp}></div>
         <h1>NFT’s</h1>
         <div className={style.contenedor_contenido}>
+          <button className={style.btn_responsive}>Ver más</button>
           <div className={style.contenedor_contenido_card}>
             <div className={style.card_image}>
               <img src={img1} alt="house" />

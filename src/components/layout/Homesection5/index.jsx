@@ -109,9 +109,7 @@ export const Homesection5 = () => {
           </div>
         </div>
       </div>
-      <div className={style.S6}>
-        <Homesection6 />
-      </div>
+      <Homesection6 />
     </section>
   );
 };

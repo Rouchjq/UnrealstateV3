@@ -6,9 +6,6 @@
   padding: 150px 0px 50px 0px;
   width: 100%;
 }
-.S6 {
-  padding-inline: 130px;
-}
 
 .lineUp {
   margin-left: 130px;
@@ -196,7 +193,7 @@
 
 @media screen and (max-width: 800px) {
   .contenedor_principal {
-    padding: 80px 0px 150px 0px;
+    padding: 80px 0px 50px 0px;
     background-size: 300% 200%;
   }
 

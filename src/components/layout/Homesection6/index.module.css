@@ -1,5 +1,6 @@
 .contenedor_principal {
   margin-top: 10%;
+  padding-inline: 130px;
 }
 
 .lineUp {
@@ -9,7 +10,9 @@
   border-radius: 50px;
   margin-bottom: 5px;
 }
-
+.btn_responsive {
+  display: none;
+}
 h1 {
   font-size: 3rem;
   font-weight: 700;
@@ -100,9 +103,12 @@ h1 {
   background: var(--color-secundario);
   color: #fff;
 }
-/* Responsive */
+/* RESPONSIVE */
 
 @media screen and (max-width: 800px) {
+  .contenedor_principal {
+    padding-inline: 0px;
+  }
   .lineUp {
     margin: auto;
   }
@@ -113,7 +119,8 @@ h1 {
 
 @media screen and (max-width: 1250px) {
   .contenedor_contenido {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .contenedor_contenido_card {
     width: 100%;
@@ -142,5 +149,23 @@ h1 {
 
   .contenedor_contenido_text button {
     align-self: center;
+    display: none;
+  }
+  .btn_responsive {
+    display: inline;
+    margin-top: 20px;
+    margin-inline: auto;
+    width: fit-content;
+    padding: 20px 90px;
+    border-radius: 50px;
+    background: #fff;
+    color: #3dba75;
+    outline: none;
+    border: 2px var(--color-secundario);
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: "poppins";
   }
 }

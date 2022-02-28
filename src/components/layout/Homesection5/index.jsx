@@ -50,7 +50,6 @@ export const Homesection5 = () => {
               controls
               preload="auto"
               poster="//vjs.zencdn.net/v/oceans.png"
-              data-setup="{}"
             >
               <source
                 src="//vjs.zencdn.net/v/oceans.mp4"

@@ -7,8 +7,6 @@ import img2 from "../../../assets/images/homesection1/img2.jpg";
 export const Homesection1 = () => {
   return (
     <section className={style.contenedor_principal}>
-      <Header />
-
       <div className={style.titulos}>
         <h1>Las transacciones inombiliarias</h1>
         <h1>más rápidas,fáciles y seguras que nunca</h1>

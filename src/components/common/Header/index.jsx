@@ -13,6 +13,10 @@ export const Header = () => {
         <button className={style.btn_grande}>Empezar</button>
         <button className={style.btn_lng}>Ing</button>
         <button className={style.btn_lng}>Esp</button>
+        <a href="#" className={style.btn_mobile}>
+          {" "}
+          <i className={`pi pi-bars ${style.btn_icon}`}></i>
+        </a>
       </div>
     </header>
   );

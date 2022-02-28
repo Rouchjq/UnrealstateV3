@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  left: 10%;
 }
 .btn_mobile {
   display: none;
@@ -57,7 +59,7 @@
 }
 
 /* RESPONSIVE MOBILE */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .menu_principal {
     display: flex;
     background-color: white;

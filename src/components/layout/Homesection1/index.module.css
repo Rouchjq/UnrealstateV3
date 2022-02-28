@@ -4,7 +4,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 200px;
   margin-bottom: 20px;
 }
 
@@ -49,6 +49,10 @@
   }
 }
 @media screen and (min-width: 451px) and (max-width: 800px) {
+  .contenedor_principal {
+    padding-top: 50px;
+  }
+
   .imgs_container img {
     width: 50%;
   }

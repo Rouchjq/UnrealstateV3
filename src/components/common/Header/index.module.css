@@ -37,7 +37,7 @@
   transition: all 0.3s;
   font-size: 0.9rem;
   font-weight: 500;
-  font-family: "poppins";
+  font-family: 'poppins';
 }
 .botones .btn_grande:hover {
   filter: brightness(1.15);
@@ -85,6 +85,7 @@
   .btn_mobile .btn_icon {
     font-size: 2rem;
     cursor: pointer;
+    color: var(--color-elementos);
   }
 
   .logo {

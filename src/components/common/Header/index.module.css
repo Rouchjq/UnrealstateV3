@@ -1,4 +1,8 @@
 .menu_principal {
+  position: relative;
+  width: 100%;
+}
+.container {
   width: 80%;
   margin: auto;
   display: flex;
@@ -64,12 +68,15 @@
 /* RESPONSIVE MOBILE */
 @media screen and (max-width: 800px) {
   .menu_principal {
-    display: flex;
-    background-color: white;
-    width: 100%;
     position: sticky;
     top: 0%;
     z-index: 2;
+  }
+  .container {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    left: 0%;
   }
   .btn_mobile {
     display: inline;

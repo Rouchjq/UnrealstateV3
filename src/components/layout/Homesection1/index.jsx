@@ -1,8 +1,7 @@
 import React from "react";
 import style from "./index.module.css";
-import { Header } from "../../common/Header";
 import img1 from "../../../assets/images/homesection1/img1.png";
-import img2 from "../../../assets/images/homesection1/img2.jpg";
+import img3 from "../../../assets/images/homesection1/img3.jpg";
 
 export const Homesection1 = () => {
   return (
@@ -19,10 +18,11 @@ export const Homesection1 = () => {
           blockchain
         </p>
       </div>
+      <button className={style.btn_mobile}>Empezar</button>
 
       <div className={style.imgs_container}>
         <img src={img1} alt="house" />
-        <img src={img2} alt="house" />
+        <img src={img3} alt="house" />
       </div>
     </section>
   );

@@ -1,10 +1,11 @@
 .contenedor_principal {
   background-color: white;
   background-image: url(../../../assets/images/homesection1/img0.png);
-  background-size: contain;
+  background-size: 110% 110%; /*X----y*/
   background-repeat: no-repeat;
   width: 100%;
   padding-top: 200px;
+  padding: bottom 200px;
   margin-bottom: 20px;
 }
 
@@ -27,11 +28,25 @@
   color: var(--color-texto);
   font-size: 1.09rem;
 }
-
+.btn_mobile {
+  padding: 14px 90px;
+  border-radius: 10px;
+  background: var(--color-secundario);
+  color: white;
+  outline: none;
+  border: 2px var(--color-secundario);
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: "poppins";
+  display: none;
+}
 .imgs_container {
   display: flex;
   width: 100%;
   height: 340px;
+  border-radius: 30px 30px 0px 0px;
 }
 
 .imgs_container img {
@@ -44,7 +59,7 @@
 
 @media screen and (min-width: 801px) and (max-width: 1250px) {
   .contenedor_principal {
-    background-size: cover;
+    background-size: 110% 110%;
     margin-bottom: 20px;
   }
 }
@@ -65,8 +80,9 @@
 
 @media screen and (max-width: 800px) {
   .contenedor_principal {
-    background-size: cover;
+    background-size: 100% 110%;
     margin-bottom: 20px;
+    padding-top: 50px;
   }
   .titulos h1 {
     font-size: 1.4rem;
@@ -74,6 +90,11 @@
 
   .text {
     font-size: 0.92rem;
+  }
+  .btn_mobile {
+    display: block;
+    margin: auto;
+    margin-bottom: 12%;
   }
 
   .imgs_container {

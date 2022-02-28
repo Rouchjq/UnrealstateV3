@@ -49,7 +49,7 @@ export const Homesection3 = () => {
             <p>
               <span>Transacciones rápidas</span>
               <br />
-              la tecnología blockchain reduce
+              La tecnología blockchain reduce
               <br />
               las transacciones a un sólo clic
             </p>

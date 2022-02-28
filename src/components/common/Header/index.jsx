@@ -1,12 +1,13 @@
 import React from "react";
 import style from "./index.module.css";
 import logo from "../../../assets/images/header/LOGO.svg";
-
+import Lmobile from "../../../assets/images/header/logo-mobile.png";
 export const Header = () => {
   return (
     <header className={style.menu_principal}>
       <div id="logo" className={style.logo}>
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" className={style.limg} />
+        <img src={Lmobile} alt="logo mobile" className={style.lmobile} />
       </div>
 
       <div className={style.botones}>

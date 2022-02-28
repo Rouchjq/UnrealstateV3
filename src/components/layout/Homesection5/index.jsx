@@ -26,7 +26,7 @@ export const Homesection5 = () => {
         <div className={style.numberOne}>
           <h1>74%</h1>
           <p>
-            de los agentes registrados en Unrealstate aseguran utilizar la
+            De los agentes registrados en Unrealstate aseguran utilizar la
             plataforma para conocer más ofertas de propiedades a nivel nacional
           </p>
         </div>

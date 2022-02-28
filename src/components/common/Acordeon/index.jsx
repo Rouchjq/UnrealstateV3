@@ -9,6 +9,15 @@ export const Acordeon = () => {
       <div className="Card">
         <Accordion activeIndex={0}>
           <AccordionTab
+            headerTemplate={<Templateheader Texto="¿Qué es Unrealstate?" />}
+          >
+            <p>
+              Es una plataforma que acerca vendedores, promotores,
+              constructoras, inmobiliarias, para converger todas juntas en una
+              misma plataforma con un mismo fin vender inmuebles.
+            </p>
+          </AccordionTab>
+          <AccordionTab
             headerTemplate={
               <Templateheader Texto="¿Qué es un tour vitual inmobiliario?" />
             }
@@ -16,15 +25,6 @@ export const Acordeon = () => {
             <p>
               Un Tour Virtual inmobiliario es un sistema para poder acercar la
               experiencia de una visita de un inmueble sin límite de distancia.
-            </p>
-          </AccordionTab>
-          <AccordionTab
-            headerTemplate={<Templateheader Texto="¿Qué es Unrealstate?" />}
-          >
-            <p>
-              Es una plataforma que acerca vendedores, promotores,
-              constructoras, inmobiliarias, para converger todas juntas en una
-              misma plataforma con un mismo fin vender inmuebles.
             </p>
           </AccordionTab>
           <AccordionTab
@@ -41,18 +41,6 @@ export const Acordeon = () => {
           </AccordionTab>
           <AccordionTab
             headerTemplate={
-              <Templateheader Texto="¿Que es la blockchain? Y porque la usamos?" />
-            }
-          >
-            <p>
-              A través de la tecnología Blockchain y el Internet 3.0 la
-              plataforma, dota de seguridad y fiabilidad para hacer todas las
-              transacciones mucho mas rapidas y legales, poniendo al alcance de
-              todos la información de todo el sistema inmobiliario.
-            </p>
-          </AccordionTab>
-          <AccordionTab
-            headerTemplate={
               <Templateheader Texto="¿Qué necesito para virtualizar una casa o crear una visita virtual?" />
             }
           >
@@ -61,6 +49,18 @@ export const Acordeon = () => {
               vídeo Tour de el inmueble seguido de añadir toda la información
               dentro de nuestra plataforma para así poder entrar en las opciones
               de compra-venta que ofrece la plataforma.
+            </p>
+          </AccordionTab>
+          <AccordionTab
+            headerTemplate={
+              <Templateheader Texto="¿Que es la blockchain? Y porque la usamos?" />
+            }
+          >
+            <p>
+              A través de la tecnología Blockchain y el Internet 3.0 la
+              plataforma, dota de seguridad y fiabilidad para hacer todas las
+              transacciones mucho mas rapidas y legales, poniendo al alcance de
+              todos la información de todo el sistema inmobiliario.
             </p>
           </AccordionTab>
         </Accordion>

@@ -10,6 +10,9 @@
 .btn_mobile {
   display: none;
 }
+.lmobile {
+  display: none;
+}
 
 .logo img {
   width: 256px;
@@ -81,10 +84,17 @@
     margin-left: 20px;
   }
 
-  .logo img {
+  .logo .limg {
     width: 110px;
     height: auto;
     padding-top: 10px;
+    display: none;
+  }
+  .logo .lmobile {
+    display: inline;
+    width: 160px;
+    height: auto;
+    padding-top: 15px;
   }
   .botones .btn_grande {
     display: none;

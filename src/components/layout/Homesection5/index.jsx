@@ -1,13 +1,13 @@
-import React from "react";
-import style from "./index.module.css";
-import img1 from "../../../assets/images/homesection5/img1.png";
-import btn1 from "../../../assets/images/homesection5/btn1.png";
-import icon1 from "../../../assets/images/homesection5/icon1.png";
-import icon2 from "../../../assets/images/homesection5/icon2.png";
-import icon3 from "../../../assets/images/homesection5/icon3.png";
-import icon4 from "../../../assets/images/homesection5/icon4.png";
-import { Homesection6 } from "../Homesection6";
-import vid from "../../../assets/video/risas.mp4";
+import React from 'react';
+import style from './index.module.css';
+// import img1 from "../../../assets/images/homesection5/img1.png";
+// import btn1 from "../../../assets/images/homesection5/btn1.png";
+import icon1 from '../../../assets/images/homesection5/icon1.png';
+import icon2 from '../../../assets/images/homesection5/icon2.png';
+import icon3 from '../../../assets/images/homesection5/icon3.png';
+import icon4 from '../../../assets/images/homesection5/icon4.png';
+import { Homesection6 } from '../Homesection6';
+// import vid from "../../../assets/video/risas.mp4";
 
 export const Homesection5 = () => {
   return (

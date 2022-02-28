@@ -1,7 +1,8 @@
-import React from "react";
-import style from "./index.module.css";
-import logo from "../../../assets/images/header/LOGO.svg";
-import Lmobile from "../../../assets/images/header/logo-mobile.png";
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react';
+import style from './index.module.css';
+import logo from '../../../assets/images/header/LOGO.svg';
+import Lmobile from '../../../assets/images/header/logo-mobile.png';
 export const Header = () => {
   return (
     <header className={style.menu_principal}>
@@ -16,7 +17,7 @@ export const Header = () => {
           <button className={style.btn_lng}>Ing</button>
           <button className={style.btn_lng}>Esp</button>
           <a href="#" className={style.btn_mobile}>
-            {" "}
+            {' '}
             <i className={`pi pi-bars ${style.btn_icon}`}></i>
           </a>
         </div>

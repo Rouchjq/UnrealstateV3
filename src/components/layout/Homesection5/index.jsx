@@ -47,7 +47,7 @@ export const Homesection5 = () => {
             {/* Pluguin de video */}
             <video
               id="my-player"
-              class={`video-js ${style.reproductor}`}
+              class={`video-js vjs-big-play-centered ${style.reproductor}`}
               controls
               crossorigin="anonymous"
               preload="auto"

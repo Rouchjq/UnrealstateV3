@@ -7,6 +7,7 @@ import icon2 from "../../../assets/images/homesection5/icon2.png";
 import icon3 from "../../../assets/images/homesection5/icon3.png";
 import icon4 from "../../../assets/images/homesection5/icon4.png";
 import { Homesection6 } from "../Homesection6";
+import vid from "../../../assets/video/risas.mp4";
 
 export const Homesection5 = () => {
   return (
@@ -51,18 +52,15 @@ export const Homesection5 = () => {
               preload="auto"
               poster="//vjs.zencdn.net/v/oceans.png"
             >
-              <source
-                src="//vjs.zencdn.net/v/oceans.mp4"
-                type="video/mp4"
-              ></source>
-              <source
+              <source src={vid} type="video/mp4"></source>
+              {/* <source
                 src="//vjs.zencdn.net/v/oceans.webm"
                 type="video/webm"
               ></source>
               <source
                 src="//vjs.zencdn.net/v/oceans.ogv"
                 type="video/ogg"
-              ></source>
+              ></source> */}
               <p class="vjs-no-js">
                 To view this video please enable JavaScript, and consider
                 upgrading to a web browser that
